@@ -286,6 +286,7 @@ header .nav-container .left-container .hamburger .hamburger-menu {
         max-width: 1248px;
         margin: 0 auto;
         flex-direction: column;
+        min-width: 100%;
     }
 
     header .nav-container .left-container {
@@ -331,6 +332,7 @@ header .nav-container .left-container .hamburger .hamburger-menu {
 
     header {
         height: 56px;
+        min-width: 100%;
     }
 
     header .nav-container .left-container .hamburger {
@@ -760,7 +762,7 @@ header .nav-container .left-container .hamburger .hamburger-menu {
 
 @media only screen and (max-width:810px) {
     .products-container {
-        min-width: 810px;
+        min-width: 100%;
     }
 
     .ad {
@@ -784,7 +786,7 @@ header .nav-container .left-container .hamburger .hamburger-menu {
 
 @media only screen and (max-width:420px) {
     .products-container {
-        min-width: 420px;
+        min-width: 100%;
     }
 
     .ad {
